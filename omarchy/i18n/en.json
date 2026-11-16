@@ -1,0 +1,9 @@
+{
+  "tooltip.count": {
+    "one": "%1 person working in Basecamp now",
+    "other": "%1 people working in Basecamp now"
+  },
+  "tooltip.loading": "Checking who's working in Basecamp…",
+  "tooltip.unreachable": "Couldn't reach Basecamp Live",
+  "tooltip.stale": "Last updated %1"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "zoltanhosszu.basecamp-live",
+  "name": "Basecamp Live",
+  "version": "0.1.0",
+  "author": "Zoltan Hosszu, Rob Zolkos",
+  "description": "How many people are working in Basecamp right now, like basecamp.com/live.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BasecampLive.qml"
+  },
+  "barWidget": {
+    "displayName": "Basecamp Live",
+    "description": "The number of people working in Basecamp right now. Click to open basecamp.com/live.",
+    "category": "Info",
+    "aliases": [
+      "basecamp",
+      "live"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "refreshIntervalSec": 60
+    },
+    "schema": [
+      {
+        "key": "refreshIntervalSec",
+        "type": "integer",
+        "label": "Refresh interval (seconds)",
+        "min": 30,
+        "max": 3600,
+        "step": 30,
+        "defaultValue": 60
+      }
+    ]
+  }
+}
